@@ -8,3 +8,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  -webkit-user-drag: none;
+  user-drag: none;
+}
